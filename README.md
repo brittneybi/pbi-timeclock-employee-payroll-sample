@@ -122,6 +122,12 @@ Your model uses a clean star schema with the following relationships:
 
 - Additional optional relationships (inactive or role-based) may support pay‑period logic.
 
+<img
+    src="https://raw.githubusercontent.com/brittneybi/pbi-timeclock-employee-payroll-sample/main/documentation/data-model.png"
+    alt="data model"
+    loading="lazy"
+/>
+
 This schema ensures optimized filtering, predictable DAX behavior, and fast aggregations.
 
 ---
@@ -133,6 +139,12 @@ The report includes four primary pages designed to give a complete view of emplo
 ---
 
 ## **1 — Schedule WTD (Week‑to‑Date)**
+
+<img
+    src="https://raw.githubusercontent.com/brittneybi/pbi-timeclock-employee-payroll-sample/main/documentation/Page3-SCHEDULE-WTD.png"
+    alt="SCHEDULE WTD"
+    loading="lazy"
+/>
 
 This page provides a weekly operational snapshot of employee work activity, capacity, and utilization.
 
@@ -160,6 +172,12 @@ Operational managers can quickly understand WTD staffing levels, work patterns, 
 ---
 
 ## **2 — Capacity & Utilization**
+
+<img
+    src="https://raw.githubusercontent.com/brittneybi/pbi-timeclock-employee-payroll-sample/main/documentation/Page2-CAPACITY&UTILIZATION.png"
+    alt="CAPACITY AND UTLIZATION"
+    loading="lazy"
+/>
 
 This page delivers a high‑level performance view of labor efficiency, capacity planning, and cost.
 
@@ -194,6 +212,12 @@ Helps leadership understand labor efficiency and cost over the selected pay peri
 
 ## **3 — Pay Period Overview**
 
+<img
+    src="https://raw.githubusercontent.com/brittneybi/pbi-timeclock-employee-payroll-sample/main/documentation/Page1-PAY-PERIOD-OVERVIEW.png"
+    alt="PAY PERIOD OVERVIEW"
+    loading="lazy"
+/>
+
 This page summarizes the entire pay period, combining hours, shifts, and scheduled activity.
 
 ### Key Features
@@ -220,6 +244,12 @@ Ideal for payroll teams and managers needing a complete picture of activity acro
 ---
 
 ## **4 — Employee Drillthrough Page**
+
+<img
+    src="https://raw.githubusercontent.com/brittneybi/pbi-timeclock-employee-payroll-sample/main/documentation/employee-drillthrough-page.png"
+    alt="employee-drillthrough-page"
+    loading="lazy"
+/>
 
 This page provides a detailed HR‑level view of a single employee’s current status and history.
 
